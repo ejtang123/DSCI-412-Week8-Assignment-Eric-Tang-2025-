@@ -1,0 +1,26 @@
+---
+title: "Week 8 Assignment"
+output: html_document
+date: "2025-03-03"
+---
+
+  The first week was mainly a lot of set up. We learned how to set up our Rstudio workspace and all the common shortcuts and commands. We also learned various concepts, including the bias-variance tradeoff, which is a fundamental concept in machine learning that describes the balance between bias and variance. Bias is the error due to overly simple assumptions while variance is the error due to excessive sensitivity to small fluctuations in training data. 
+
+  The second week introduces data exploration. Coders need to examine, or rather, explore, their data before it can be used for modeling. One technique is using summary statistics. Simply using summary(data) would allow us to instantly inform us of a variety of statistics, such as mean, median, and min/max. We can also explore the data by simply visualizing it by using commands such as ggplot and geom_bar. 
+
+  In the third week, we learned about linear regression. This is a commonly used tool to analyze our data. In simpler terms, linear regression finds the expected value of a numeric quantity (dependent variable) in terms of numeric and categorical inputs (independent variables). For example, we want to model how much weight a person gained or lost (dependent variable) based on lifestyle choices such as exercise and caloric intake (independent variables). After using linear regression, we can use it to find the root mean squared error (RMSE), which measures how far off our predictions are from the actual value. The lower RMSE, the better the predictions. 
+
+  The fourth week introduces us to classification. There are times where we deal with qualitative data instead of quantitative data, such as using eye color instead of the weight of a person. In this case, we don’t use linear regression models since they’re more appropriate for quantitative data. In these cases, we use logistic regression. Unlike linear regression models, logistic regression models use sigmoid curves to outputs probabilities. If the probability is closer to 1, the model will predict one class, or if the probability is closer to 0, the model will predict the other class. 
+
+  In the fifth week, we learn about generalized linear models (GLMs). These are more flexible version of linear regression models. Unlike linear regression models, GLMs can work with more complex data that don’t follow a straight-line pattern, such as continuous data and binary data. GLMs also work with different probability distributions, such as binormal and poison distribution, while linear regression models only work with normal distributions. 
+
+  The sixth week introduced us to tree based models. We learned the pros and cons of using tree based models. Some pros are that they’re easier to explain compared to linear regression models and can be easily interpretable by a non-coding expert. Some cons are that trees could be very non-robust, meaning that any small changes could cause a large change in the tree model, and don’t have the best accuracy levels compared to other better predictive models. One way to reduce the robustness of the trees is to use random forest models, where many decision trees using random subsets of data are used. Combining many trees helps reduces errors and can also handle missing data well. 
+
+  In the seventh week, we got introduced to k-means clustering. In simple terms, this method groups similar things together based on characteristics that are unknown to us. This helps find patterns in messy data that we cannot normally detect ourselves. We also learn how to find the optimal number of clusters in a k-means clustering. We do this by using methods such as a the elbow method, to find where adding more clusters stops helping the model, or the silhouette score, which checks how well points fit in their clusters. 
+
+  Finally, in this last week, we taken everything we’ve learned and present it in a clean and professional manner. It is important for your peers and clients to be able to understand and interpret your data. One method is creating an ioslide presentation. This allows us to create a slideshow that is broken up into sections by using # and ## heading tags. We also learn to set up a Git, which is a control system tool that tracks changes to our code and shares those changes with others. This is essentially the code version of google docs, where others can collaborate on a project at the same time. 
+
+
+
+
+
